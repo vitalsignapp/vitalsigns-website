@@ -22,6 +22,8 @@ gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/7948/head"
 
 # gem "jekyll-feed", "~> 0.6"
 
+gem "therubyracer", :require => 'v8'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
