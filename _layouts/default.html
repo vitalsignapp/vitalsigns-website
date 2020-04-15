@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="th" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% include facebook.html %}
+
+    <title>VitalSign App ระบบส่งผลการตรวจร่างกายเบื้องต้นด้วยตนเอง</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <link rel="stylesheet" href="{{ '/css/bootstrap.css' | prepend: site.baseurl_root }}"/>
+    <link rel="stylesheet" href="{{ '/css/font-awesome.min.css' | prepend: site.baseurl_root }}"/>
+    <link rel="stylesheet" href="{{ '/css/bootstrap-grid.css' | prepend: site.baseurl_root }}"/>
+    <link rel="stylesheet" href="{{ '/css/bootstrap-reboot.css' | prepend: site.baseurl_root }}"/>
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl_root }}"/>
+
+<!--This is Google Analytics-->
+    <script>
+    </script>
+<!--END of Google Analytics-->
+
+<!-- Facebook Pixel Code -->
+    <script>
+    </script>
+<!-- End Facebook Pixel Code -->
+
+    {% seo %}
+
+</head>
+  <body>
+
+    {{ content}}
+
+    {% include footer.html %}
+  </body>
+</html>

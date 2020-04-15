@@ -1,0 +1,34 @@
+global:
+  thai: ไทย
+  english: English
+  register: Register
+  demo-video: 'Demo video'
+  contact-line: 'Join Line Group'
+home:
+  title: 'A System for Vital Signs Self-Measurement'
+  sub-title: 'The patients can take thier daily vital signs measurement and send it to medical assistants to keep track of patients’ conditions.'
+
+how-it-work:
+  title: 'How It Works?'
+  sub-title: 'The hospital will asks for the cooperation from the patients who have been evaluated that they are still be able to take thier own vital signs to perform the task under supervision.'
+  step-1: 'It is time for vital signs check. The patients can scan their own barcode to log into the system.'
+  step-2: 'The patients measure their blood pressure, pulse rate, etc., and can easily enter the data in VitalSign App.'
+  step-3: 'Medical assistants will receive the patient''s data and can monitor in a faster and more conveninent way.'
+  step-4: 'With the patients help, doctors and assistants will have more time to take care emergency cases.'
+
+opensource:
+  title: 'Open Source Project'
+  sub-title: > 
+    VitalSign App are created on the idea of helping 
+    doctors and medical assistants without aiming to 
+    earn profit. We are a non-profit group. Everyone can use, 
+    distribute or join our team.
+  contributors: Contributors
+  community: Community
+  instructions: Instructions
+  manual-patient: 'Manual for patient (Thai language)'
+  manual-hospital: 'Manual for hospital (Thai language)'
+
+contact-us:
+  title: 'Contact Us'
+  sub-title: 'If you interest to try our system and give us recommendation, please contact us through Line Group below.'
