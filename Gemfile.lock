@@ -88,6 +88,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  execjs
   jekyll!
   jekyll-autoprefixer
   jekyll-feed (~> 0.6)
