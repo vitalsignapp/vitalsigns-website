@@ -20,6 +20,8 @@ github_username:  vitalsignapp
 markdown: kramdown
 # theme: minima
 
+destination: docs
+
 plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-autoprefixer

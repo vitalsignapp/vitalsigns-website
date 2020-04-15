@@ -1,5 +1,4 @@
--------------------------------------------------------------------------------------
-Jekyll 4.0 comes with some major changes, notably:
+# Jekyll 4.0 comes with some major changes, notably:
 
   * Our `link` tag now comes with the `relative_url` filter incorporated into it.
     You should no longer prepend `{{ site.baseurl }}` to `{% link foo.md %}`
@@ -12,4 +11,10 @@ Jekyll 4.0 comes with some major changes, notably:
   * Support for deprecated configuration options has been removed. We will no longer
     output a warning and gracefully assign their values to the newer counterparts
     internally.
--------------------------------------------------------------------------------------
+----
+
+# Github action reference
+
+https://github.com/marketplace/actions/jekyll-4-build-deploy
+
+
