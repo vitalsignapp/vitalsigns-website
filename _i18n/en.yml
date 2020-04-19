@@ -6,7 +6,7 @@ global:
   contact-line: 'Join Line Group'
 home:
   title: 'A System for Vital Signs Self-Measurement'
-  sub-title: 'The patients can take thier daily vital signs measurement and send it to medical assistants to keep track of patients’ conditions.'
+  sub-title: 'The patients can take their daily vital signs measurement and send it to medical assistants to keep track of patients’ conditions.'
 
 how-it-work:
   title: 'How It Works?'
@@ -18,10 +18,10 @@ how-it-work:
 
 opensource:
   title: 'Open Source Project'
-  sub-title: > 
-    VitalSign App are created on the idea of helping 
-    doctors and medical assistants without aiming to 
-    earn profit. We are a non-profit group. Everyone can use, 
+  sub-title: >
+    VitalSign App are created on the idea of helping
+    doctors and medical assistants without aiming to
+    earn profit. We are a non-profit group. Everyone can use,
     distribute or join our team.
   contributors: Contributors
   community: Community
