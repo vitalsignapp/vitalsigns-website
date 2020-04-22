@@ -6,7 +6,7 @@ global:
   contact-line: 'Join Line Group'
 home:
   title: 'A System for Vital Signs Self-Measurement'
-  sub-title: 'The patients can take their daily vital signs measurement and send it to medical assistants to keep track of patients’ conditions.'
+  sub-title: "The patients can take their daily vital signs measurement and send it to medical assistants to keep track of patients' conditions."
 
 how-it-work:
   title: 'How It Works?'
