@@ -1,3 +1,5 @@
+Encoding.default_external = Encoding::UTF_8
+
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -23,6 +25,8 @@ gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/7948/head"
 # gem "jekyll-feed", "~> 0.6"
 
 # gem "therubyracer", :require => 'v8'
+
+gem 'i18n-js'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
