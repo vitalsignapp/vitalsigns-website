@@ -20,7 +20,7 @@ github_username:  vitalsignapp
 markdown: kramdown
 # theme: minima
 
-destination: _site
+# destination: _site
 
 plugins:
   - jekyll-multiple-languages-plugin
