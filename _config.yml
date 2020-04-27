@@ -29,7 +29,7 @@ plugins:
   - jekyll-sitemap  
 
 # exclude_from_localizations: ["js", "images", "css", "fonts"]
-languages: ["th", "en"]
+languages: ["en", "th"]
 
 sass:
   sass_dir: ./css
