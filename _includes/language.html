@@ -1,15 +1,17 @@
 <div class="language-switch">
-  {% capture link_en %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
-  {% capture link_th %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+  {% capture link_en %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+  {% capture link_th %}{{ site.baseurl_root }}/th{{ page.url  }}{% endcapture %}
   
-  {% if site.lang == "th" %}  
-    <a href="{{ link_th }}" class="active">{% t global.thai %}</a>
-    &nbsp;&nbsp;|&nbsp;
-    <a href="{{ link_en }}" >{% t global.english %}</a>
-  {% elsif site.lang == "en" %}  
-    <a href="{{ link_th }}" >{% t global.thai %}</a>
-    &nbsp;&nbsp;|&nbsp;
-    <a href="{{ link_en }}" class="active">{% t global.english %}</a>
+  {% if site.lang == "en" %}  
+    {% assign action_en = "active" %}
+    {% assign action_th = "not-active" %}
+  {% else %}
+    {% assign action_en = "not-active" %}
+    {% assign action_th = "active" %}
   {% endif %}
+
+  <a href="{{ link_th }}" class="{{ action_th }}">{% t global.thai %}</a>
+  &nbsp;&nbsp;|&nbsp;
+  <a href="{{ link_en }}" class="{{ action_en }}">{% t global.english %}</a>
 </div>
 
