@@ -5,7 +5,7 @@ global:
   demo-video: 'Demo video'
   contact-line: 'Join Line Group'
 home:
-  title: 'A System for Vital Signs Self-Measurement'
+  title: 'Opensource System for Vital Signs Measurement'
   sub-title: "The patients can take their daily vital signs measurement and send it to medical assistants to keep track of patients' conditions."
 
 how-it-work:

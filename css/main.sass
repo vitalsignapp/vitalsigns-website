@@ -16,7 +16,7 @@ h1, .h1, h2, .h2, h3, .h3
   margin-bottom: 10px
 
 h1
-  font-size: 36px
+  font-size: 32px
   font-weight: bold
   color: $color-dark-gray
 
@@ -47,7 +47,7 @@ hr
 .clear
   clear: both
 
-.text-center 
+.text-center
   text-align: center
 
 .nowrap
@@ -55,7 +55,7 @@ hr
 
 
 /*---Button---*/
-.btn-primary 
+.btn-primary
   &:extend(.btn all)
   @include button-variant($color-black, $color-call-to-action, $color-call-to-action)
   font-size: 18px
@@ -69,7 +69,7 @@ hr
   -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2)
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2)
 
-.btn-secondary 
+.btn-secondary
   &:extend(.btn all)
   font-weight: 500
   @include button-variant($color-theme-primary, $color-surface, $color-theme-primary)
@@ -86,23 +86,23 @@ hr
   padding-bottom: 0px
   h3
     font-weight: 400
-  
+
   .img-responsive
     margin: auto
-  
+
   .btn
     width: 180px
     margin: 20px 5px
-  
+
 
 .section-how
   h2
     margin-bottom: 30px
-  
+
   li
     text-align: left
     margin-bottom: 20px
-  
+
   .how-to-step
     margin-top: 10px
     text-align: left
@@ -118,19 +118,19 @@ hr
       height: 40px
       padding-top: 5px
       overflow: hidden
-    
+
     .content
       float: left
       width: 85%
       overflow: hidden
-    
-  
+
+
   .step-2,.step-4
     margin-top: 100px
-  
+
   .btn
     margin-top: 60px
-  
+
 
 
 .section-contactus
@@ -138,13 +138,13 @@ hr
   color: $color-white
   h2
     color: $color-white
-  
+
   .btn
     margin-top: 10px
-  
+
   img
     margin: 30px auto
-  
+
 
 
 .section-opensource
@@ -152,35 +152,35 @@ hr
   color: $color-white
   a
     color: $color-white
-  
+
   h2
     color: $color-white
     margin-bottom: 20px
-  
+
   .contributors
     text-align: left
     img
       margin: 40px auto
-    
+
     h3
       color: $color-white
-    
+
     .name
       background: $color-call-to-action
       color: $color-black
       padding: 0px 3px
-    
+
     .company
       font-style: italic
-    
-  
+
+
   .community
     text-align: left
     margin-top: 40px
     h3
       color: $color-white
-    
-  
+
+
 
 
 .language-switch
@@ -189,7 +189,7 @@ hr
   padding-right: 20px
   .active
     color: $color-dark-gray
-  
+
 
 
 /*--Footer--*/
@@ -200,15 +200,15 @@ hr
   color: $color-light-gray
   a
     color: $color-white
-  
+
   .name
     float: left
     display: block
-  
+
   .version
     float: right
     display: block
-  
+
 
 
 /*--Tutorial--*/
@@ -222,8 +222,8 @@ hr
       font-weight: normal
       font-size: 16px
       color: $color-light-gray
-    
-  
+
+
   .sub-title
     margin-top: 50px
     border-top: 1px solid $color-light-gray
@@ -233,38 +233,38 @@ hr
       margin-top: 30px
       margin-bottom: 30px
 
-  h3 
+  h3
     margin-top: 30px
     color: $color-dark-gray
-  
+
   a:hover h3
     color: $color-theme-primary
-  
-  li 
+
+  li
     font-family: 'Sarabun', sans-serif
     margin-left: 2%
     line-height: 1.8
-  
+
   img
     margin-top: 10px
     margin-bottom: 20px
-  
+
   .img-large
     max-width: 480px
-  
+
   .img-small
     max-width: 320px
-  
+
   .icon
     width: 5px
     margin: 0
     padding: 0
     margin-left: 5px
-  
+
   hr
     margin-top: 40px
     margin-bottom: 30px
-  
+
   footer
     font-size: 20px
     line-height: 30px
@@ -274,7 +274,7 @@ hr
     text-align: center
     color: $color-white
     background: $color-theme-primary-darker
-  
+
   .tutorial-patient
     margin-top: 30px
     text-align: center
@@ -311,14 +311,14 @@ button.back-to-top:active,
 button.back-to-top:focus,
   outline: 0 !important
 
-button.back-to-top::before 
+button.back-to-top::before
   content: "\f077"
   font-family: "FontAwesome"
   display: block
   vertical-align: middle
   margin: -5px 0 auto
 
-button.back-to-top.show 
+button.back-to-top.show
   display: block
   background: #fff
   color: $color-theme-primary
@@ -332,7 +332,7 @@ button.back-to-top.show
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25)
   -moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25)
 
-button.back-to-top.show:active 
+button.back-to-top.show:active
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25)
   -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25)
   -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25)
@@ -340,48 +340,48 @@ button.back-to-top.show:active
 
 // /*---Responsive (Bootstrap Standard)---*/
 // /* Only Large devices (LG) */
-// @media only screen and (min-width: 1201px) 
+// @media only screen and (min-width: 1201px)
 
 
 // /* Only Medium devices (MD) */
-// @media only screen and (min-width: 993px) and (max-width: 1200px) 
+// @media only screen and (min-width: 993px) and (max-width: 1200px)
 
 
 // /* Only Small devices (SM) */
-// @media only screen and (min-width: 769px) and (max-width: 992px) 
+// @media only screen and (min-width: 769px) and (max-width: 992px)
 
 /* Only Extra Small devices (XS) */
-@media only screen and (max-width: 768px) 
+@media only screen and (max-width: 768px)
   body
     font-size: 16px
-  
+
   h1
     font-size: 26px
     line-height: 36px
-  
+
   h2
     font-size: 24px
     margin-top: 0px
-  
+
   h3
     font-size: 18px
     line-height: 30px
-  
+
   .language-switch
     display: none
-  
+
   .section
     padding: 40px 0px
-  
+
   .section-banner
     padding-bottom: 0px
     .logo
       width: 280px
-    
+
     .btn
       margin-top: 10px
       margin-bottom: 10px
-    
+
   .section-how
     .how-to-step
       .number
@@ -391,48 +391,48 @@ button.back-to-top.show:active
         width: 90%
       .step-image
         text-align: center
-      
-    
+
+
     .step-2,.step-3,.step-4
       margin-top: 20px
-    
+
     .btn
       margin-top: 30px
-    
-  
+
+
   .section-opensource
     h3
       text-align: center
-    
+
     .contributors
       img
         margin: 20px auto
-      
-    
-  
+
+
+
   .tutorial
     margin-top: 40px
     .title
       h1
         margin-top: 0px
         margin-bottom: 0px
-      
-    
+
+
     h2
       font-size: 20px
-    
+
     .tutorial-patient
       h2
         font-size: 24px
-      
-    
+
+
     .logo
       width: 280px
-    
+
     .img-large
       max-width: 100%
       margin-left: -20px
-    
+
     .img-small
       max-width: 250px
       margin-left: -20px
