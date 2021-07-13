@@ -32,7 +32,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    execjs (2.8.1)
+    execjs (2.7.0)
     ffi (1.15.3)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -87,6 +87,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  execjs (= 2.7)
   i18n-js
   jekyll!
   jekyll-autoprefixer
